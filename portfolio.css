@@ -20,19 +20,23 @@ h5{
     text-decoration: none;
     cursor: pointer;
 }
+.navbar-main{
+    color: #DBE8D4;
+    text-decoration: none;
+}
 .nav-link:hover, .active{
     color: #73CCA8 !important;
     border-bottom: 4px solid #73CCA8;
 }
-.nav{
-    background-color: #525e65;
+.navbar{
+    background-color: #525e65 !important;
 }
 .namebox{
     padding-top: 80px;
 }
 .myname{
     font-family: 'Cinzel', serif;
-    font-size: 70px;
+    font-size: 40px;
     letter-spacing: 1;
 }
 .myposition{
@@ -41,7 +45,8 @@ h5{
     letter-spacing: 6px;
 }
 .mydescription-box{
-    width: 450px;
+    width: 40%;
+    min-width: 280px;
 
 }
 
@@ -60,10 +65,18 @@ h5{
     background: #73CCA8;
 }
 .web-description{
+    font-size: 14px;
     font-weight: bolder;
     text-shadow: 2px 2px #0e1015;
-    margin-top: 40px;
+    margin-top: 70px;
     z-index: 1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate( -50%, -50% );
+    text-align: center;
+    color: white;
+    font-weight: bold;
 }
 
 .web-picture{
