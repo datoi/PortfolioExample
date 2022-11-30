@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
+body { 
+    color: #DBE8D4;
+    background-color:black;
+    background:radial-gradient(#3a4250,#0e1015);
+}
+h5{
+    font-family: 'Titillium Web', sans-serif;    
+}
+.sticky-top a{
+    text-decoration: none;
+    color: #DBE8D4;
+}
+.sticky-top a:hover{
+    color: #DBE8D4;
+}
+.nav-link{
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-link:hover, .active{
+    color: #73CCA8 !important;
+    border-bottom: 4px solid #73CCA8;
+}
+.nav{
+    background-color: #525e65;
+}
+.namebox{
+    padding-top: 80px;
+}
+.myname{
+    font-family: 'Cinzel', serif;
+    font-size: 70px;
+    letter-spacing: 1;
+}
+.myposition{
+    font-family: 'Titillium Web', sans-serif;    
+    
+    letter-spacing: 6px;
+}
+.mydescription-box{
+    width: 450px;
+
+}
+
+.mypicture{
+    width: 272px;
+    height: 272px;
+    border-radius: 50%;
+}
+
+
+
+.footer-button{
+    background: #DBE8D4;
+}
+.footer-button:hover{
+    background: #73CCA8;
+}
+.web-description{
+    font-weight: bolder;
+    text-shadow: 2px 2px #0e1015;
+    margin-top: 40px;
+    z-index: 1;
+}
+
+.web-picture{
+    filter: brightness(50%);
+}
+
+.web-picture:hover {
+    filter:brightness(100%);
+    opacity: 1;
+    transition: ease 0.4s;
+    cursor: pointer; 
+}
+
+.gmail-container:hover{
+    border-bottom:3px solid #73CCA8;
+}
+
+.gmail:hover{
+    color: #73CCA8;
+}
+
+.gmail{
+    text-decoration: none;
+    color: #73CCA8;
+}
+.social{
+   color: #DBE8D4; 
+}
+.social:hover{
+    color: #73CCA8;
+}
+
